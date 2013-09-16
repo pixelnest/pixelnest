@@ -16,5 +16,7 @@ Config file for C# source code.
 
 ## Usage
 
+```
 ./astyle --options=csharp.cfg file1.cs file2.cs
 ./astyle --options=csharp.cfg < file.cs > file-format.cs
+```
