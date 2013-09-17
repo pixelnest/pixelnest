@@ -198,6 +198,31 @@ event type MessageReceived
 
 An event should not begin by a verb, but should finish by a verb (in its passive form most of the time, except for a pending task, like a background worker or a mouse movement).
 
+### *If* statements
+
+In order to increase visibility and reduce errors:
+
+- *If* statements should be explicits, especially when using the *not* operator
+- Even a one-line *if* should be surrounded by brackets
+
+```
+// Correct
+if(mesBool == false) 
+{
+   i++;
+}
+
+// Incorrect
+if(!mesBool) 
+{
+   i++;
+}
+
+// Incorrect
+if(mesBool == false) 
+   i++;
+```
+
 ## C# syntax
 
 ### Types
