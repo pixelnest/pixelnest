@@ -35,6 +35,8 @@ Then, execute `rbenv install x.x.x` to install a given Ruby version. You can lis
 
 Check the result with the `ruby -v` command.
 
+Each version has its own gems.
+
 ### Ruby-build
 
 Note that we had installed `ruby-build` along with `rbenv` when using `brew install rbenv ruby-build`. Ruby-build is a plugin for rbenv that allows us to install a ruby version with the `rbenv install` command, and automate a version uninstallation with the `rbenv uninstall` command.
@@ -42,3 +44,7 @@ Note that we had installed `ruby-build` along with `rbenv` when using `brew inst
 ### .ruby-version
 
 When you call `rbenv local x.x.x`, it creates a `.ruby-version` file in your current folder. If you type `rbenv versions`, you can see that the currently set Ruby is not your global one.
+
+### Change your global Ruby installation
+
+Install your favorite Ruby version. Then, set it with `rbenv global x.x.x`. **DO NOT USE** the default system installation of Ruby. Indeed, OSX needs ruby for certain tasks. If you override a gem, it may conflict with the system. That's why it's better to set another global ruby installation.
