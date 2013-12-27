@@ -23,7 +23,7 @@ Restart your shell or call `source ~/.bash_profile` to reload your profile.
 
 ## rbenv
 
-rbenv is a ruby utility that allows you to have multiple ruby versions on a system. It's especially useful to have a development environment that is exactly the same as your production platform. Moreover, on Mac OS X, it is also used to bypass the default system Ruby installation. We use Bundler with rbenv to use local gems for a project.
+rbenv is a ruby utility that allows you to have multiple ruby versions on a system. It's especially useful to have a development environment that is exactly the same as your production platform. Moreover, on Mac OS X, it is also used to bypass the default system Ruby installation. We use Bundler with rbenv to have local gems for a project.
 
 [More info here](https://github.com/sstephenson/rbenv).
 
