@@ -1,6 +1,6 @@
 # Dependencies
 
-* Install Xcode [**Command Line Tools**](https://developer.apple.com/downloads/index.action?name=for%20Xcode%20-) (last version available):
+* Install Xcode [**Command Line Tools**](https://developer.apple.com/downloads/index.action?name=for%20Xcode%20-):
   1. Open Xcode
   2. Click on "File"
   3. Click on "Open Developer Tool"
