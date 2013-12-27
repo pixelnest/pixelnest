@@ -5,7 +5,7 @@
   2. Click on "File"
   3. Click on "Open Developer Tool"
   4. Click on "More Developer Tools"
-  5. Connect with your Apple Id
+  5. Connect with your Apple ID
   6. Download the last version
 * Install [Homebrew](http://brew.sh)
 
