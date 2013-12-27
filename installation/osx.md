@@ -18,3 +18,5 @@ First, we need rbenv:
 Open your bash profile (on OSX, it should be `~/.bash_profile`) and add at the end of the file:
 
 * `eval "$(rbenv init -)"`
+
+Info: rbenv is a ruby utility that allows you to have multiple ruby versions on a system. It's especially useful to simulate a production environment for your dev system. Moreover, on Mac OS X, it is also used to bypass the default system Ruby installation. We use Bundler with rbenv to use local gems for a project.
