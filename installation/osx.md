@@ -38,3 +38,7 @@ Check the result with the `ruby -v` command.
 ### Ruby-build
 
 Note that we had installed `ruby-build` along with `rbenv` when using `brew install rbenv ruby-build`. Ruby-build is a plugin for rbenv that allows us to install a ruby version with the `rbenv install` command, and automate a version uninstallation with the `rbenv uninstall` command.
+
+### .ruby-version
+
+When you call `rbenv local x.x.x`, it creates a `.ruby-version` file in your current folder. If you type `rbenv versions`, you can see that the currently set Ruby is not your global one.
