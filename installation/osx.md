@@ -6,7 +6,7 @@
   3. Click on "Open Developer Tool"
   4. Click on "More Developer Tools"
   5. Connect with your Apple ID
-  6. Download the last version
+  6. Download the last version of the "Command Line Tools" utility
 * Install [Homebrew](http://brew.sh)
 
 # Ruby
