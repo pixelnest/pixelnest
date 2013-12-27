@@ -38,7 +38,7 @@ rbenv is a ruby utility that allows you to have multiple ruby versions on a syst
 
 Type `rbenv install -l` to print a list of all available ruby versions.
 
-Then, execute `rbenv install x.x.x` to install a given Ruby version. You can list the installed versions with `rbenv versions`. The one with the * is the currently used version. You can set a global version with `rbenv global x.x.x` and a local one with `rbenv local x.x.x`.
+Then, by executing `rbenv install x.x.x`, you will install the x.x.x version. You can list the installed versions with `rbenv versions`. The one with the * is the currently used version. You can set a global version with `rbenv global x.x.x` and a local one with `rbenv local x.x.x`.
 
 Check the result with the `ruby -v` command.
 
