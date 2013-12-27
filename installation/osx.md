@@ -1,12 +1,12 @@
 # Dependencies
 
 * Install Xcode **Command Line Tools** (last version available):
-  * Open Xcode
-  * File
-  * Open Developer Tool
-  * More Developer Tools
-  * Connect with your Apple Id
-  * Find the last version of TODO
+  1. Open Xcode
+  2. File
+  3. Open Developer Tool
+  4. More Developer Tools
+  5. Connect with your Apple Id
+  6. Find the last version of TODO
 * Install [Homebrew](http://brew.sh)
 
 # Ruby
