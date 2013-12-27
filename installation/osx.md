@@ -27,7 +27,7 @@ rbenv is a ruby utility that allows you to have multiple ruby versions on a syst
 
 [More info here](https://github.com/sstephenson/rbenv).
 
-### Install a ruby version
+### Install a Ruby version
 
 Type `rbenv install -l` to print a list of all available ruby versions.
 
