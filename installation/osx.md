@@ -19,9 +19,13 @@ Open your bash profile (on OSX, it should be `~/.bash_profile`) and add at the e
 
 * `eval "$(rbenv init -)"`
 
-Info: rbenv is a ruby utility that allows you to have multiple ruby versions on a system. It's especially useful to have a development environment that is exactly the same as your production platform. Moreover, on Mac OS X, it is also used to bypass the default system Ruby installation. We use Bundler with rbenv to use local gems for a project.
+Restart your shell or call `source ~/.bash_profile` to reload your profile.
 
-## Install a ruby version
+## rbenv
+
+rbenv is a ruby utility that allows you to have multiple ruby versions on a system. It's especially useful to have a development environment that is exactly the same as your production platform. Moreover, on Mac OS X, it is also used to bypass the default system Ruby installation. We use Bundler with rbenv to use local gems for a project.
+
+### Install a ruby version
 
 Type `rbenv install -l` to print a list of all available ruby versions.
 
@@ -29,6 +33,6 @@ Then, execute `rbenv install x.x.x` to install the given Ruby version. You can l
 
 Check the result with the `ruby -v` command.
 
-## Ruby-build
+### Ruby-build
 
 Note that we installed `ruby-build` along with `rbenv` on the previous `brew install`. `ruby-build` is a plugin for rbenv that allows us to install a ruby version with the `rbenv install` command, and automate a version uninstall with the `rbenv uninstall` command.
