@@ -1,4 +1,4 @@
-# Dependencies
+# Required dependencies
 
 * Install Xcode [**Command Line Tools**](https://developer.apple.com/downloads/index.action?name=for%20Xcode%20-):
   1. Open Xcode
