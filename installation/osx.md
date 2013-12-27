@@ -42,7 +42,7 @@ Then, by executing `rbenv install x.x.x`, you will install the x.x.x version. Yo
 
 Check the result with the `ruby -v` command.
 
-Each version has its own gems.
+**Each version has its own gems.**
 
 ### Ruby-build
 
