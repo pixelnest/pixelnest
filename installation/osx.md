@@ -1,6 +1,6 @@
 # Dependencies
 
-* Install Xcode *Command Line Tools* (last version available):
+* Install Xcode **Command Line Tools** (last version available):
   * Open Xcode
   * File
   * Open Developer Tool
