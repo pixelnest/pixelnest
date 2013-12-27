@@ -51,3 +51,9 @@ Note that we had installed `ruby-build` along with `rbenv` when using `brew inst
 ### .ruby-version
 
 When you call `rbenv local x.x.x`, it creates a `.ruby-version` file in your current folder. If you type `rbenv versions`, you can see that the currently set Ruby is not your global one.
+
+### rehash
+
+Sometimes, after you have installed a new gem, the binary won't be find by your environment. To fix that, execute `rbenv rehash`.
+
+For example, if you install rails and you try to use `rails xxx` just after, the command will be unknown. By using `rbenv rehash`, rails will work correctly.
