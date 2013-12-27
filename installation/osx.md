@@ -21,9 +21,16 @@ Open your bash profile (on OSX, it should be `~/.bash_profile`) and add at the e
 
 Restart your shell or call `source ~/.bash_profile` to reload your profile.
 
-## rbenv
+Finally, do:
+
+* `rbenv install 2.1.0`
+* `rbenv global 2.1.O`
+
+## rbenv explanation
 
 rbenv is a ruby utility that allows you to have multiple ruby versions on a system. It's especially useful to have a development environment that is exactly the same as your production platform. Moreover, on Mac OS X, it is also used to bypass the default system Ruby installation. We use Bundler with rbenv to have local gems for a project.
+
+**DO NOT USE** the default system installation of Ruby. Indeed, OSX needs ruby (and some gems) for certain tasks. If you override a gem, it may conflict with the system. That's why it's better to set another global ruby installation.
 
 [More info here](https://github.com/sstephenson/rbenv).
 
@@ -44,7 +51,3 @@ Note that we had installed `ruby-build` along with `rbenv` when using `brew inst
 ### .ruby-version
 
 When you call `rbenv local x.x.x`, it creates a `.ruby-version` file in your current folder. If you type `rbenv versions`, you can see that the currently set Ruby is not your global one.
-
-### Change your global Ruby installation
-
-Install your favorite Ruby version. Then, set it with `rbenv global x.x.x`. **DO NOT USE** the default system installation of Ruby. Indeed, OSX needs ruby for certain tasks. If you override a gem, it may conflict with the system. That's why it's better to set another global ruby installation.
