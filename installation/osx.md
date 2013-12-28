@@ -24,7 +24,7 @@ Restart your shell or call `source ~/.bash_profile` to reload your profile.
 Finally, do:
 
 * `rbenv install 2.1.0`
-* `rbenv global 2.1.O`
+* `rbenv global 2.1.0`
 
 ## rbenv explanation
 
