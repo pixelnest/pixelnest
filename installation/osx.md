@@ -17,7 +17,10 @@ First, we need rbenv:
 
 Open your bash profile (on OSX, it should be `~/.bash_profile`) and add at the end of the file:
 
-* `eval "$(rbenv init -)"`
+````
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+````
 
 Restart your shell or call `source ~/.bash_profile` to reload your profile.
 
