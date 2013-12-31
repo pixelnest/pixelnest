@@ -15,10 +15,9 @@ First, we need rbenv:
 
 * `brew install rbenv ruby-build`
 
-Open your bash profile (on OSX, it should be `~/.bash_profile`) and add at the end of the file:
+Open your bash profile (on OSX, it should be `~/.bash_profile`) and add **at the end of the file**:
 
 ````
-export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ````
 
